@@ -1,0 +1,10 @@
+@import url('index2.css');
+
+p{
+    background-color: red; 
+    color:white;
+}
+h3{
+    background-color: grey;
+    color:white;
+}

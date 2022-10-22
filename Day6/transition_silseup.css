@@ -1,0 +1,23 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    cursor: pointer;
+    transition-duration: 1s;
+    border: 1px solid black;
+}
+.box1:hover {
+    transform: translateX(50px) scaleX(2);
+}
+.box2:hover {
+    transform: translateX(50px) skewX(-45deg);
+}
+.box3:hover {
+    border-radius: 50px;
+    background-color: red;
+    transform: translateX(200px) rotate(180deg);
+}
+.box4:hover {
+    transform: perspective(110px) translateY(50px) scale(2) rotateY(-360deg);
+    background-color: yellow;
+}

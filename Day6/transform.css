@@ -1,0 +1,33 @@
+.img-box {
+    background-color: yellow;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: ;
+    left: ;
+}
+
+img {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+img:hover {
+    transition: 1s;
+    transform: skewX(30deg);
+    transform: skewY(30deg);
+    transform: skew(30deg,30deg);
+
+    transform: scaleY(0.7);
+
+    transform: translateX(100px);
+    transform: translate(100px,50px);
+
+    transform: rotate(-45deg);
+    transform: perspective(200px) rotateY(235deg);
+
+    backface-visibility: visible;
+
+    transform: translateX(300px) scaleX(2) skewY(30deg);
+}

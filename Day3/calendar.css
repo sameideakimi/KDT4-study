@@ -1,0 +1,16 @@
+body{
+    background-color: #e09292;
+}
+table{
+    width: 100%;
+}
+table tr th:first-child,
+table tr td:first-child,
+table tr .holiday{
+    color: red;
+}
+
+table tr th:last-child,
+table tr td:last-child{
+    color: blue;
+}

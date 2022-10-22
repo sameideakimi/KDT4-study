@@ -1,0 +1,24 @@
+.d-block {
+    display: block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 30px;
+}
+.d-inline {
+    display: inline;
+    background-color: pink;
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+}
+.d-inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin: 20px;
+    padding: 20px;
+}

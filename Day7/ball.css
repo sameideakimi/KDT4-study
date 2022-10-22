@@ -1,0 +1,32 @@
+.box {
+    width: 200px;
+    height: 200px;
+    /* background-color: orange; */
+    background: linear-gradient(45deg, yellow, orange);
+    border-radius: 50%;
+    animation: move 4s linear infinite;
+    position: absolute;
+}
+
+@keyframes move {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: calc(100% - 200px);
+        top: 0;
+    }
+    50% {
+        left: calc(100% - 200px);
+        top: calc(100% - 200px);
+    }
+    75% {
+        left: 0;
+        top: calc(100% - 200px);
+    }
+    100% {
+        left: 0;
+        top: 0;
+    }
+}

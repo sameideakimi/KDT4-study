@@ -1,0 +1,53 @@
+body {
+    height: 1000px;
+}
+.box {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+
+}
+.box2 {
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.background-link1 {
+    background-image: url("https://item.kakaocdn.net/do/d84248170c2c52303db27306a00fb861f604e7b0e6900f9ac53a43965300eb9a");
+    background-repeat: repeat-x;
+    background-position: center;
+}
+
+.background-link2 {
+    background-image: url("https://item.kakaocdn.net/do/d84248170c2c52303db27306a00fb861f604e7b0e6900f9ac53a43965300eb9a");
+    background-size: contain;
+    background-position: 100px 30px;
+    background-repeat: no-repeat;
+}
+
+.background-link3 {
+    background-image: url("https://item.kakaocdn.net/do/d84248170c2c52303db27306a00fb861f604e7b0e6900f9ac53a43965300eb9a");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10px 30px;
+}
+
+.background-image {
+    background-image: url("./image/small_img.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+
+    background-position: center;
+    background-position: center top;
+    background-position: 3rem 5rem;
+    background-position: 30px;
+
+    background-size: contain;
+    background-size: cover;
+    background-size: 90px 50px;
+
+    background-attachment: fixed;
+}

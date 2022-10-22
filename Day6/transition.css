@@ -1,0 +1,57 @@
+.img-box {
+    background-color: yellow;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: ;
+    left: ;
+}
+
+img {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+img:hover {
+    transition: 1s;
+    transform: skewX(30deg);
+    transform: skewY(30deg);
+    transform: skew(30deg,30deg);
+
+    transform: scaleY(0.7);
+
+    transform: translateX(100px);
+    transform: translate(100px,50px);
+
+    transform: rotate(-45deg);
+    transform: perspective(200px) rotateY(235deg);
+
+    backface-visibility: visible;
+
+    transform: translateX(300px) scaleX(2) skewY(30deg);
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: .4s linear;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    transition-property: width;
+    transition-timing-function: ease-in-out;
+}
+.box1:hover {
+    background-color: pink;
+    height: 120px;
+    width: 120px;
+}
+.box2:hover {
+    background-color: aqua;
+    transform: translateX(200px) scale(2);
+}
+.box3:hover {
+    display: none;
+}

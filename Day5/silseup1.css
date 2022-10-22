@@ -1,0 +1,70 @@
+div {
+    width: 800px;
+    height: 500px;
+}
+
+.parent {
+    background-repeat: no-repeat;
+    background-image: url("./image/grass.png");
+    position: relative;
+    background-position: left;
+    border: 1px solid black;
+    z-index: 10;
+}
+
+.circle {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.eye1 {
+    background-color: #ffffff;
+    top: 55px;
+    left: 55px;
+    width: 25px;
+    height: 25px;
+    z-index: 3;
+}
+
+.eye2 {
+    background-color: #000000;
+    top: 59px;
+    left: 59px;
+    width: 10px;
+    height: 10px;
+    z-index: 4;
+}
+
+.circle1 {
+    background-color: #2844c0;
+    top: 42px;
+    left: 42px;
+}
+
+.circle2 {
+    background-color: #384ca8;
+    top: 80px;
+    left: 85px;
+}
+
+.circle3 {
+    background-color: #576dd1;
+    top: 135px;
+    left: 128px;
+}
+
+.circle4 {
+    background-color: #c8ccdf;
+    top: 180px;
+    left: 165px;
+    z-index: 7;
+}
+
+.circle5 {
+    background-color: #ced0da;
+    top: 200px;
+    left: 200px;
+    z-index: 11;
+}

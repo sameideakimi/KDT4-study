@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+  <h1>복합선택자 사용 연습</h1>
+  <p>동물원에 왔어요</p>
+  <div class="zoo">
+ <ul>
+ <span>여긴 사파리!</span>
+ <li>곰</li>
+ <li id="tiger">호랑이</li>
+ <li>팬더</li>
+ <span class="lion">사자1</span>
+ <li class="lion">사자2</li>
+ <li>사육사 allie</li>
+ <li>사육사 진형</li>
+ </ul>
+   <span class="lion"> 사파리 밖의 사자</span>
+  </div>
+  <p class="lion">야생의 사자</p>
+</body>
+2:57
+-----------------------------------------------
+2:57
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복합선택자 배우기!!</title>
+    <style>
+        header{
+            height: 70px;
+            background-color: grey;
+        }
+        section{
+            border: 1px solid blue;
+        }
+        article{
+            height: 100px;
+            border: 1px solid salmon;
+        }
+        /* 복합선택자 */
+        /* 직계자식  선택자 */
+        header > h2 {
+            color: white;
+            text-align: center;
+            line-height: 70px;
+        }
+        .first > h2 {
+            color: aliceblue;
+            background-color: midnightblue;
+        }
+        .second > h2{
+            color: midnightblue;
+            background-color: aliceblue;
+        }
+        main > .first > article > ul > li {
+            font-size: 20px;
+            background-color: brown;
+            color: #FFFFFF;
+        }
+        main > .second li {
+            font-size: 10px;
+        }
+        /*형제 선택자 */
+        /* 인접형제 선택자 */
+        #fairy ~ li {
+            background-color: green;
+            color: beige;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>선택자 배우기</h2>
+    </header>
+    <main>
+        <section class="first">
+            <h2>first section</h2>
+            <article>
+                <span>전래동화</span>
+            </article>
+            <article>
+                <ul>
+                    <li>햇님 달님</li>
+                    <li id="fairy">선녀와 나무꾼</li>
+                    <span>dd</span>
+                    <li>콩쥐 팥쥐</li>
+                    <li>은혜갚은 까치</li>
+                </ul>
+            </article>
+            <article></article>
+        </section>
+        <section class="second">
+            <h2>second section</h2>
+            <article>
+                <ul>
+                    <li>신데렐라</li>
+                    <li>백설공주</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

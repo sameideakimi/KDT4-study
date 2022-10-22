@@ -1,0 +1,45 @@
+body {
+    font-size: 23px;
+}
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    /* flex 기본용어 정리
+        -주축 (main axis)
+            주축의 기본방향:가로(좌-> 우)
+        -교차축(across axis)
+        */
+        /*
+        flex-direction: 정렬 방향 (주축 방향 설정)
+        - row (default): 수평정렬 (좌 -> 우)
+        - row-reverse: 수평 정렬 (우 -> 좌)
+        - column: 수직 정렬 (위 -> 아래)
+        - column-reverse: 수직 정렬 (아래 -> 위)
+    */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+    .items {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+.item1{
+    background-color:red ;
+}
+.item2{
+    background-color: orange;
+}
+.item3{
+    background-color: yellow;
+}
+.item4{
+    background-color: green;
+}
+.item5{
+    background-color: blue;
+}

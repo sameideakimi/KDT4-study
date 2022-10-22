@@ -1,0 +1,15 @@
+table{
+    background-color: rgb(204, 243, 126);
+}
+.day{
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+h1{
+    font-weight: bold;
+}

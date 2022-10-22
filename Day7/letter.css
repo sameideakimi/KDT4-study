@@ -1,0 +1,14 @@
+p {
+    animation: long 3s;
+}
+
+@keyframes long {
+    0% {
+        transform: translateX(100%);
+        width: 500%;
+    }
+    100% {
+        transform: translateX(0%);
+        width: 100%;
+    }
+}
